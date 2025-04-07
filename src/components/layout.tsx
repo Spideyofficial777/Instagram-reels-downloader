@@ -27,7 +27,6 @@ export function Navbar() {
             <Link href="/" className="hover:underline">
               Home
             </Link>
-
           </div>
           <ThemeToggle />
         </div>
@@ -40,8 +39,15 @@ export function Footer() {
   return (
     <footer className="h-8 w-full bg-background/50 text-center text-secondary-foreground">
       <div className="flex items-center justify-between border-t border-input px-4 py-2">
-        <div aria-label="Disclaimer" className="text-sm font-semibold">
-          We are not affiliated with Instagram or Meta
+        <div className="text-sm font-semibold">
+          ©️ 2025 All rights reserved ·{" "}
+          <Link
+            href="https://t.me/hacker_x_official_777"
+            target="_blank"
+            className="hover:underline"
+          >
+            SPIDEY OFFICIAL
+          </Link>
         </div>
         <div className="flex items-center gap-1 text-sm">
           <Link href="/terms-of-service" className="hover:underline">
