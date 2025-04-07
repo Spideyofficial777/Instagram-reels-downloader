@@ -50,7 +50,7 @@ export function Footer() {
           >
             SPIDEY OFFICIAL
           </Link>{" "}
-          <span className="text-[13px] font-medium tracking-wide italic">
+          <span className="text-[13px] font-medium tracking-wide">
             All Rights Reserved
           </span>
         </div>
