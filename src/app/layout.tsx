@@ -17,7 +17,7 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "Instagram Video Downloader",
+  title: "Spidey Instagram Video Downloader",
   description: "Download Instagram Videos",
 };
 
