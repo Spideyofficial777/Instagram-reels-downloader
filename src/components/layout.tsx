@@ -38,16 +38,21 @@ export function Navbar() {
 export function Footer() {
   return (
     <footer className="h-8 w-full bg-background/50 text-center text-secondary-foreground">
-      <div className="flex items-center justify-between border-t border-input px-4 py-2">
+      <div className="flex items-center justify-between border-t border-input px-4 py-2 w-full">
         <div className="text-sm font-semibold">
-          ©️ 2025 All rights reserved ·{" "}
+         copyrights © 2025{" "}
           <Link
-            href="https://t.me/hacker_x_official_777"
+            href="https://t.me/spideyofficial777"
             target="_blank"
-            className="hover:underline"
+            rel="noopener noreferrer"
+            className="font-bold hover:underline"
+            style={{ color: "#FF0000" }}
           >
             SPIDEY OFFICIAL
-          </Link>
+          </Link>{" "}
+          <span className="text-[13px] font-medium tracking-wide italic">
+            All Rights Reserved
+          </span>
         </div>
         <div className="flex items-center gap-1 text-sm">
           <Link href="/terms-of-service" className="hover:underline">
